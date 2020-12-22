@@ -1,0 +1,85 @@
+
+body{
+
+  animation-name: example;
+  animation-duration: 10s;
+  background: url(view.png) ;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+th, td {
+    text-align: center;
+    cursor: pointer;
+}
+table{
+  margin:auto;
+  width: 600px;
+  height: 1000px;
+}
+h1{
+  margin-left:auto;
+  text-align: center;
+  color: white;
+  font-family: "Quicksand" , sans-serif;
+}
+td#OtherMonth {
+      background: #167e56;
+      opacity:0.5;
+      font-family: "Quicksand" , sans-serif;
+      color:white;
+}
+td#CurrentMonth {
+    background: #167e56; 
+    font-family: "Quicksand" , sans-serif; 
+    color: white;
+}
+td#CurrentMonth:hover{
+  background-color:#262626;
+  border:0.1rem solid   #989898;
+  cursor: pointer;
+
+}
+#short_day{
+  background-color: #330033; 
+  font-family: "Quicksand" , sans-serif;
+  color:white;
+}
+#month{
+  background-color: #167e56;
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  text-align: center;
+  text-shadow: 0.2rem 0.1rem rgba(0,0.5,0,0.5);
+  cursor: pointer;
+   font-size: 1.5rem;
+   font-weight: 10;
+   text-transform: uppercase;
+   letter-spacing:0.5rem;
+   margin-bottom: 5rem;
+   font-family: "Quicksand" , sans-serif;
+   color:white;
+}
+#fixedDate{
+  color:red;
+  background-color: white;
+}
+#preview, #next{
+    color: white;
+    cursor: pointer;
+    background: #330033;
+    opacity: 0.7;
+  }
+#preview:hover{
+  font-size:1rem;
+  color: white;
+  font-weight: bold;
+}
+#next:hover{
+  font-size:1rem;
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes example {
+  from {background: url(full.jpg);}
+  to {background:url(a.jpg);}
+}
