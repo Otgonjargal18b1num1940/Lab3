@@ -1,5 +1,2 @@
-"# WebProg-labuud" 
-"# WebProg-labuud" 
-"# WebProg-labuud" 
-"# WebProg-labuud" 
-"# WebProg-labuud" 
+"# WebProg-lab3" 18b1num1940 Kh.Otgonjargal
+
